@@ -1,0 +1,7 @@
+name: Node Pipeline
+on: push
+jobs:
+  main:
+    uses: n00bc0der89/actions-learning-pathway/.github/workflows/build-test-deploy.yml@feature/new-feature
+    with:
+      node-version: '18.x'
